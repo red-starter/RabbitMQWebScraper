@@ -4,8 +4,6 @@ var cheerio = require('cheerio');
 var amqp = require('amqplib/callback_api');
 
 
-url = 'http://www.imdb.com/title/tt1229340/';
-
 
 var callback = function(error, response, html){
 	if(!error){
