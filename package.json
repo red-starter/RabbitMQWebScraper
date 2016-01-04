@@ -1,0 +1,28 @@
+{
+  "name": "RabbitMQ",
+  "version": "1.0.0",
+  "description": "An example of how to use the worker queue for time consuming operations. In this case we are using workers to process http requests and carry out file write operations.",
+  "main": "recieve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/red-starter/RabbitMQWebScraper.git"
+  },
+  "keywords": [
+    "RabbitMQ",
+    "Node.js"
+  ],
+  "author": "Mike Sova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/red-starter/RabbitMQWebScraper/issues"
+  },
+  "homepage": "https://github.com/red-starter/RabbitMQWebScraper",
+  "dependencies": {
+    "amqplib": "^0.4.0",
+    "cheerio": "^0.19.0",
+    "request": "^2.67.0"
+  }
+}
